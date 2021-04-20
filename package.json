@@ -1,10 +1,10 @@
 {
-  "name": "techzon-backend",
+  "name": "ecommerce-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node backend/index.js",
     "backend": "node backend/index.js",
     "frontend": "npm start --prefix frontend",
     "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
